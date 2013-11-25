@@ -20,15 +20,15 @@
 
 // Datamapping - in this example for an ADS
 $PMF_LDAP['ldap_mapping'] = array (
-    'name'     => 'cn',
-    'username' => 'samAccountName',
+    'name'     => 'gecos',
+    'username' => 'uid',
     'mail'     => 'mail'
 );
 
 // In a multi-domain environment, users may enter a prefix as domain, e.g. "DOMAIN\username"
 // If possible, you should use the Microsoft Global Catalog as LDAP-Server, which comes
 // with every ADS-Installation.
-$PMF_LDAP['ldap_use_domain_prefix'] = true;
+$PMF_LDAP['ldap_use_domain_prefix'] = false;
 
 // LDAP-options to set
 // refer to the documentation of ldap_set_option() for information on available options
