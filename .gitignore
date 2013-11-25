@@ -37,3 +37,8 @@ vendor/*
 
 # node.js modules for development
 node_modules/*
+
+# Our changes (bw,rk)
+phpmyfaq/install/update.php
+phpmyfaq/install/setup.php
+phpmyfaq/config/ldap.php
